@@ -2,6 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="Assignment03\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="01_Bit_Analysis">
@@ -13,5 +14,12 @@
       <Filter>01_Bit_Analysis</Filter>
     </ClCompile>
     <ClCompile Include="Assignment02\Assignment02.c" />
+    <ClCompile Include="Assignment03\assignmnet03.c" />
+    <ClCompile Include="Assignment03\my_fraction.c" />
+    <ClCompile Include="Assignment03\my_math.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assignment03\my_fraction.h" />
+    <ClInclude Include="Assignment03\my_math.h" />
   </ItemGroup>
 </Project>
