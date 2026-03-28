@@ -12,5 +12,6 @@
     <ClCompile Include="Assignment01.c">
       <Filter>01_Bit_Analysis</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment02\Assignment02.c" />
   </ItemGroup>
 </Project>
