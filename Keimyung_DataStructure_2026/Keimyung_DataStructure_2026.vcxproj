@@ -128,12 +128,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="Assignment03\README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Assignment02\Assignment02.c" />
+    <ClCompile Include="Assignment02\Assignment02.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment03\assignmnet03.c" />
+    <ClCompile Include="Assignment03\my_fraction.c" />
+    <ClCompile Include="Assignment03\my_math.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assignment03\my_fraction.h" />
+    <ClInclude Include="Assignment03\my_math.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
