@@ -129,6 +129,7 @@
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="Assignment03\README.md" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -137,13 +138,26 @@
     <ClCompile Include="Assignment02\Assignment02.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Assignment03\assignmnet03.c" />
-    <ClCompile Include="Assignment03\my_fraction.c" />
-    <ClCompile Include="Assignment03\my_math.c" />
+    <ClCompile Include="Assignment03\assignmnet03.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment03\my_fraction.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment03\my_math.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="assignment04.c" />
+    <ClCompile Include="my_math.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Assignment03\my_fraction.h" />
-    <ClInclude Include="Assignment03\my_math.h" />
+    <ClInclude Include="Assignment03\my_fraction.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Assignment03\my_math.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="my_math.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

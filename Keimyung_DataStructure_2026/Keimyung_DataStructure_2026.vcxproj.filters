@@ -3,10 +3,16 @@
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="Assignment03\README.md" />
+    <None Include="README.md">
+      <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="01_Bit_Analysis">
       <UniqueIdentifier>{bc397a81-214e-429c-a28f-12b29964c775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_GCD_Fibonacci_Profiling">
+      <UniqueIdentifier>{255cef4c-b233-4180-8ccf-2f16086f7d83}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -17,9 +23,18 @@
     <ClCompile Include="Assignment03\assignmnet03.c" />
     <ClCompile Include="Assignment03\my_fraction.c" />
     <ClCompile Include="Assignment03\my_math.c" />
+    <ClCompile Include="assignment04.c">
+      <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="my_math.c">
+      <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h" />
     <ClInclude Include="Assignment03\my_math.h" />
+    <ClInclude Include="my_math.h">
+      <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
