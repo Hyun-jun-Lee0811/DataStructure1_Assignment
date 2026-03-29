@@ -21,11 +21,15 @@ int main() {
         long long minus = fibonacci(n - 1);
 
         clock_t start = clock();
-        int result = get_gcd((int)fn, (int)minus);
+
+        for (int i = 0; i < 1000000; i++) {
+            get_gcd((int)fn, (int)minus);
+        }
+
         clock_t end = clock();
 
         double duration = (double)(end - start) * 1000.0 / CLOCKS_PER_SEC;
-        printf("%d %lld %lld %d %.5f\n", n, fn, minus, result, duration);
+        printf("%d, %lld, %.5f ms\n", n, fn, duration);
     }
     return 0;
 }
