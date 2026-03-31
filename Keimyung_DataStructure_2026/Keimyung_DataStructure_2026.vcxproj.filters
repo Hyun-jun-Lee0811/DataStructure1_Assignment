@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="Assignment03\README.md" />
-    <None Include="README.md">
+    <None Include="Assignmnet04\README.md">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </None>
   </ItemGroup>
@@ -23,17 +23,17 @@
     <ClCompile Include="Assignment03\assignmnet03.c" />
     <ClCompile Include="Assignment03\my_fraction.c" />
     <ClCompile Include="Assignment03\my_math.c" />
-    <ClCompile Include="assignment04.c">
+    <ClCompile Include="Assignmnet04\assignment04.c">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </ClCompile>
-    <ClCompile Include="my_math.c">
+    <ClCompile Include="Assignmnet04\my_math.c">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h" />
     <ClInclude Include="Assignment03\my_math.h" />
-    <ClInclude Include="my_math.h">
+    <ClInclude Include="Assignmnet04\my_math.h">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </ClInclude>
   </ItemGroup>
