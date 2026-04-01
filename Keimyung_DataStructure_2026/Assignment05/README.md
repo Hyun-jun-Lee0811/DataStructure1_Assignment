@@ -117,7 +117,7 @@ for (int num = 1; num <= N * N; num++) {
 
 ---
 
-### 검증 코드
+### 구현 코드
 
 ```c
 for (int i = 0; i < N; i++) {
