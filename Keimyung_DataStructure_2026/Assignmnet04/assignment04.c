@@ -3,33 +3,29 @@
 #include "my_math.h"
 
 long long fibonacci(int n) {
-    if (n <= 1) return n;
-    long long a = 0, b = 1, temp;
-    for (int i = 2; i <= n; i++) {
-        temp = a + b;
-        a = b;
-        b = temp;
+    if (n <= 1) {
+        return n;
     }
-    return b;
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 int main() {
-    printf("n  F(n)  F(n-1)  GCD 결과  소요 시간\n");
+    printf("n, F(n), GCD 결과, 소요 시간(ms)\n");
 
     for (int n = 5; n <= 45; n++) {
-        long long fn = fibonacci(n);
-        long long minus = fibonacci(n - 1);
-
         clock_t start = clock();
 
-        for (int i = 0; i < 1000000; i++) {
-            get_gcd((int)fn, (int)minus);
-        }
+        long long fn = fibonacci(n);
+        long long fn_minus_1 = fibonacci(n - 1);
+
+        int result = get_gcd((int)fn, (int)fn_minus_1);
 
         clock_t end = clock();
 
         double duration = (double)(end - start) * 1000.0 / CLOCKS_PER_SEC;
-        printf("%d, %lld, %.5f ms\n", n, fn, duration);
+
+        printf("%d, %lld, %d, %.5f ms\n", n, fn, result, duration);
+
     }
     return 0;
 }
