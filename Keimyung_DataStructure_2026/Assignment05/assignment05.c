@@ -34,7 +34,7 @@ int main() {
     printf("\n합=%d, 최댓값=%d, 최솟값=%d\n", sum, maxNum, minNum);
 
 
-    printf("홀수 마방진\n");
+    printf("마방진\n");
 
     int box[N][N] = { 0 };
     int firstStart = 0;           
