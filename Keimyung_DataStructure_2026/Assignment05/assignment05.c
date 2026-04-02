@@ -1,7 +1,7 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
 
-#define N 10 
+#define N 11 
 int main() {
     printf("배열 알아보기\n");
     int arr[N];
@@ -69,7 +69,7 @@ int main() {
         }
     }
 
-    printf("%dx%d 마방진:\n", N, N);
+    printf("%dx%d 홀수 마방진:\n", N, N);
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             printf("%3d ", box[i][j]);
