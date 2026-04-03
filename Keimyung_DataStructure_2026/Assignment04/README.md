@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Keimyung_DataStructure_2026/Assignment04/README.md
 # [자료구조1] Assignment 4 - 2026.03.29
 
 ## 과제 개요
