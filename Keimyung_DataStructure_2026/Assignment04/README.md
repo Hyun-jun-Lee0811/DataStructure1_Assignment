@@ -278,6 +278,3 @@ Fibonacci의 지수적 시간복잡도를 반영한 것이다.
 
 4. **결론**: 전체 프로그램의 성능은 Fibonacci 함수에 의해 결정되며,  
    이는 이론적인 시간복잡도 O(2^n)과 일치한다.
-
-
->>>>>>> origin/main:Keimyung_DataStructure_2026/Assignmnet04/README.md
