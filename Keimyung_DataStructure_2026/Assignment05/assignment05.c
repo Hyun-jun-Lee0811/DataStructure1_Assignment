@@ -11,7 +11,7 @@ int main() {
 
 
     for (int i = 0; i < N; i++) {
-        arr[i] = rand() % (i + 1);
+        arr[i] = rand() % (N + 1);
     }
 	minNum = arr[0];
 
@@ -80,15 +80,20 @@ int main() {
     printf("\n<합계>:\n", BoxSum);
 
     for (int i = 0; i < N; i++) {
+        int rawSum = 0;
+        int columnSum = 0;
+
         for (int j = 0; j < N; j++) {
             rawSum += box[i][j];
             columnSum += box[j][i];
         }
+
         diagonal1 += box[i][i];
         diagonal2 += box[i][N - 1 - i];
 
         printf("%d행의 합: %2d, %d열의 합: %2d\n", i + 1, rawSum, i + 1, columnSum);
     }
+
     printf("＼의 합: %2d\n", diagonal1);
     printf("／의 합: %2d\n", diagonal2);
 
