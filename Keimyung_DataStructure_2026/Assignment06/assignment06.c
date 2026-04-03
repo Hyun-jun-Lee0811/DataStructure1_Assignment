@@ -35,8 +35,12 @@ int main() {
     for (int i = 0; i < N; i++) {
         int val = *(arr + i);
         sum += val;
-        if (val > maxNum) maxNum = val;
-        if (val < minNum) minNum = val;
+        if (val > maxNum) {
+            maxNum = val;
+        }
+        if (val < minNum) {
+            minNum = val;
+        }
     }
     printf("\n합=%d, 최댓값=%d, 최솟값=%d\n", sum, maxNum, minNum);
 
