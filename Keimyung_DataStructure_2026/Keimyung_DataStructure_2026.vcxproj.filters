@@ -2,9 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include=".gitignore" />
-    <None Include="Assignment03\README.md" />
     <None Include="Assignmnet04\README.md">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </None>
+    <None Include="Assignment03\README.md">
+      <Filter>03_Fraction_ADT</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -14,27 +16,51 @@
     <Filter Include="04_GCD_Fibonacci_Profiling">
       <UniqueIdentifier>{255cef4c-b233-4180-8ccf-2f16086f7d83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="02_Floationg_Point_Char">
+      <UniqueIdentifier>{09c9687a-3d24-4a0b-8385-056315a67a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Fraction_ADT">
+      <UniqueIdentifier>{3be71870-792d-4a3a-9c1f-b326cded699a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Arrary">
+      <UniqueIdentifier>{3bd0f390-b46b-4a89-a272-b645c692b3af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
       <Filter>01_Bit_Analysis</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment02\Assignment02.c" />
-    <ClCompile Include="Assignment03\assignmnet03.c" />
-    <ClCompile Include="Assignment03\my_fraction.c" />
-    <ClCompile Include="Assignment03\my_math.c" />
     <ClCompile Include="Assignmnet04\assignment04.c">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </ClCompile>
     <ClCompile Include="Assignmnet04\my_math.c">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment02\Assignment02.c">
+      <Filter>02_Floationg_Point_Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment03\assignmnet03.c">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment03\my_fraction.c">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment03\my_math.c">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment05\assignment05.c">
+      <Filter>05_Arrary</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Assignment03\my_fraction.h" />
-    <ClInclude Include="Assignment03\my_math.h" />
     <ClInclude Include="Assignmnet04\my_math.h">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment03\my_fraction.h">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment03\my_math.h">
+      <Filter>03_Fraction_ADT</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
