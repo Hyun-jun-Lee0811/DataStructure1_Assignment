@@ -77,7 +77,7 @@ N 입력: 11
 
 ---
 
-### ✔ 동적 할당
+### 동적 할당
 
 ```c
 int** box = (int**)malloc(sizeof(int*) * N);
@@ -93,7 +93,7 @@ for (int i = 0; i < N; i++) {
 
 ---
 
-### ✔ 마방진 생성
+### 마방진 생성
 
 ```c
 for (int num = 1; num <= N * N; num++) {
