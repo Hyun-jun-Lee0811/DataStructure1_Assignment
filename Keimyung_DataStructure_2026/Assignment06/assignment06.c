@@ -1,14 +1,20 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h> 
 
 int main() {
     int N;
+    int sum = 0;
+    srand((unsigned int)time(NULL));
+
     printf("N 입력: ");
     scanf("%d", &N);
 
     int* arr = (int*)malloc(sizeof(int) * N);
-    int sum = 0;
+    if (arr == NULL) {
+        return 1;
+    }
 
     for (int i = 0; i < N; i++) {
         *(arr + i) = rand() % (N + 1);
@@ -34,14 +40,10 @@ int main() {
     }
     printf("\n합=%d, 최댓값=%d, 최솟값=%d\n", sum, maxNum, minNum);
 
-
     printf("\n마방진 입력: ");
     scanf("%d", &N);
 
-    int diagonal1 = 0;
-    int diagonal2 = 0;
     int** box = (int**)malloc(sizeof(int*) * N);
-
     for (int i = 0; i < N; i++) {
         *(box + i) = (int*)malloc(sizeof(int) * N);
         for (int j = 0; j < N; j++) {
@@ -51,16 +53,12 @@ int main() {
 
     int firstStart = 0;
     int middleStart = N / 2;
-    int nextFirstStart;
-    int nextMiddleStart;
-    int rawSum = 0;
-    int columnSum = 0;
 
     for (int num = 1; num <= N * N; num++) {
         *(*(box + firstStart) + middleStart) = num;
 
-        nextFirstStart = firstStart - 1;
-        nextMiddleStart = middleStart + 1;
+        int nextFirstStart = firstStart - 1;
+        int nextMiddleStart = middleStart + 1;
 
         if (nextFirstStart < 0) {
             nextFirstStart = N - 1;
@@ -88,7 +86,12 @@ int main() {
     }
 
     printf("\n<합계>:\n");
+    int diagonal1 = 0;
+    int diagonal2 = 0;
+
     for (int i = 0; i < N; i++) {
+        int rawSum = 0;
+        int columnSum = 0;
         for (int j = 0; j < N; j++) {
             rawSum += *(*(box + i) + j);
             columnSum += *(*(box + j) + i);
