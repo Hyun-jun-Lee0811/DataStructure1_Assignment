@@ -25,6 +25,15 @@
     <Filter Include="05_Arrary">
       <UniqueIdentifier>{3bd0f390-b46b-4a89-a272-b645c692b3af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="06_Pointer">
+      <UniqueIdentifier>{dc52c950-9233-497d-b021-78784fd9bd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_Structure">
+      <UniqueIdentifier>{51c48aa1-91f9-4971-a7aa-2fbebc842183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Recursion">
+      <UniqueIdentifier>{6a14e843-f5bf-42df-83b2-ca8788e4f573}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -51,8 +60,15 @@
     <ClCompile Include="Assignment04\my_math.c">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment06\assignment06.c" />
-    <ClCompile Include="Assignment07\assignment07.c" />
+    <ClCompile Include="Assignment06\assignment06.c">
+      <Filter>06_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment07\assignment07.c">
+      <Filter>07_Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment08\assignment08.c">
+      <Filter>08_Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -66,6 +82,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Assignment07\name_list.txt" />
+    <Text Include="Assignment07\name_list.txt">
+      <Filter>07_Structure</Filter>
+    </Text>
   </ItemGroup>
 </Project>
