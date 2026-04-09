@@ -51,6 +51,7 @@
     <ClCompile Include="Assignment04\my_math.c">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment06\assignment06.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
