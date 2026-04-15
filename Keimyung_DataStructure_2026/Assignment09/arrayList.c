@@ -56,7 +56,9 @@ int insertArrayList(arrayList* al, int pos, elementArrayList item) {
 }
 
 elementArrayList deleteArrayList(arrayList* al, int pos) {
-    if (pos < 0 || pos >= al->size) return 0;
+    if (pos < 0 || pos >= al->size) {
+        return 0;
+    }
     elementArrayList item = al->data[pos];
     for (int i = pos; i < al->size - 1; i++) {
         al->data[i] = al->data[i + 1];
@@ -75,7 +77,9 @@ elementArrayList getItemArrayList(arrayList* al, int pos) {
 }
 
 int replaceItemArrayList(arrayList* al, int pos, elementArrayList item) {
-    if (pos < 0 || pos >= al->size) return 0;
+    if (pos < 0 || pos >= al->size) {
+        return 0;
+    }
     al->data[pos] = item;
     return 1;
 }
