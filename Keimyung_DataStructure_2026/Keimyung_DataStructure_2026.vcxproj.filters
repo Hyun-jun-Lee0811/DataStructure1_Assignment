@@ -35,6 +35,18 @@
     <Filter Include="08_Recursion">
       <UniqueIdentifier>{6a14e843-f5bf-42df-83b2-ca8788e4f573}</UniqueIdentifier>
     </Filter>
+    <Filter Include="09_Realloc">
+      <UniqueIdentifier>{a18533e6-8650-421d-b018-203df1f1fc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Sequential_List">
+      <UniqueIdentifier>{3c165675-4597-4c9d-9707-dd17c51e047b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Sequential_List\assignment-1">
+      <UniqueIdentifier>{a63e88e5-bf8b-4721-ac81-cc1dfb3223fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Sequential_List\assignment2">
+      <UniqueIdentifier>{78722044-dabc-4609-b5fb-ebeb9eae1812}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -70,8 +82,24 @@
     <ClCompile Include="Assignment08\assignment08.c">
       <Filter>08_Recursion</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment09\arrayList.c" />
-    <ClCompile Include="Assignment09\assignment09.c" />
+    <ClCompile Include="Assignment09\arrayList.c">
+      <Filter>09_Realloc</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment09\assignment09.c">
+      <Filter>09_Realloc</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-1\arrayList.c">
+      <Filter>10_Sequential_List\assignment-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-1\assignment10.c">
+      <Filter>10_Sequential_List\assignment-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-2\arrayList.c">
+      <Filter>10_Sequential_List\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-2\assignment10.c">
+      <Filter>10_Sequential_List\assignment2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -83,7 +111,15 @@
     <ClInclude Include="Assignment04\my_math.h">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </ClInclude>
-    <ClInclude Include="Assignment09\arrayList.h" />
+    <ClInclude Include="Assignment09\arrayList.h">
+      <Filter>09_Realloc</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment10\Assignment10-1\arrayList.h">
+      <Filter>10_Sequential_List\assignment-1</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment10\Assignment10-2\arrayList.h">
+      <Filter>10_Sequential_List\assignment2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Assignment07\name_list.txt">
