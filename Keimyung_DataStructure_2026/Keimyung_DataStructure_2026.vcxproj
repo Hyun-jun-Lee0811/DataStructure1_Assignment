@@ -164,8 +164,20 @@
     <ClCompile Include="Assignment08\assignment08.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Assignment09\arrayList.c" />
-    <ClCompile Include="Assignment09\assignment09.c" />
+    <ClCompile Include="Assignment09\arrayList.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment09\assignment09.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-1\arrayList.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-1\assignment10.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-2\arrayList.c" />
+    <ClCompile Include="Assignment10\Assignment10-2\assignment10.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -176,6 +188,8 @@
     </ClInclude>
     <ClInclude Include="Assignment04\my_math.h" />
     <ClInclude Include="Assignment09\arrayList.h" />
+    <ClInclude Include="Assignment10\Assignment10-1\arrayList.h" />
+    <ClInclude Include="Assignment10\Assignment10-2\arrayList.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Assignment07\name_list.txt" />
