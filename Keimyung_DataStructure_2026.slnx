@@ -3,5 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Folder Name="/솔루션 항목/">
+    <File Path="Keimyung_DataStructure_2026/Keimyung_DataStructure_2026.vcxproj" />
+  </Folder>
   <Project Path="Keimyung_DataStructure_2026/Keimyung_DataStructure_2026.vcxproj" Id="540f226a-56db-4b25-9d03-842ed0a98b83" />
 </Solution>
