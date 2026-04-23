@@ -47,6 +47,9 @@
     <Filter Include="10_Sequential_List\assignment2">
       <UniqueIdentifier>{78722044-dabc-4609-b5fb-ebeb9eae1812}</UniqueIdentifier>
     </Filter>
+    <Filter Include="11_Polynomial">
+      <UniqueIdentifier>{a4497362-798f-42d2-afbc-de4b4398cb44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -100,6 +103,15 @@
     <ClCompile Include="Assignment10\Assignment10-2\assignment10.c">
       <Filter>10_Sequential_List\assignment2</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment11\arrayList.c">
+      <Filter>11_Polynomial</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment11\assignment11.c">
+      <Filter>11_Polynomial</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment11\polynomial.c">
+      <Filter>11_Polynomial</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -119,6 +131,13 @@
     </ClInclude>
     <ClInclude Include="Assignment10\Assignment10-2\arrayList.h">
       <Filter>10_Sequential_List\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Assignment11\arrayList.h">
+      <Filter>11_Polynomial</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment11\polynomial.h">
+      <Filter>11_Polynomial</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
