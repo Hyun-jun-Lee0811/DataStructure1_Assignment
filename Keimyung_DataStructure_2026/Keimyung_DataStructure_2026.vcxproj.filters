@@ -47,6 +47,9 @@
     <Filter Include="10_Sequential_List\assignment2">
       <UniqueIdentifier>{78722044-dabc-4609-b5fb-ebeb9eae1812}</UniqueIdentifier>
     </Filter>
+    <Filter Include="10_Sequential_List\Bonus">
+      <UniqueIdentifier>{abd957c8-e2c3-4d24-b817-06d259fa3b5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -100,6 +103,15 @@
     <ClCompile Include="Assignment10\Assignment10-2\assignment10.c">
       <Filter>10_Sequential_List\assignment2</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment10\Bonus\arrayList.c">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Bonus\main.c">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Bonus\sparseMatrix.c">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -119,6 +131,12 @@
     </ClInclude>
     <ClInclude Include="Assignment10\Assignment10-2\arrayList.h">
       <Filter>10_Sequential_List\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment10\Bonus\arrayList.h">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment10\Bonus\sparseMatrix.h">
+      <Filter>10_Sequential_List\Bonus</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
