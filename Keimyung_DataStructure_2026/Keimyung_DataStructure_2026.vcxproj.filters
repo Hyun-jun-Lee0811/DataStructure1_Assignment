@@ -1,166 +1,166 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include=".gitignore" />
-		<None Include="Assignment03\README.md">
-			<Filter>03_Fraction_ADT</Filter>
-		</None>
-		<None Include="Assignment04\README.md">
-			<Filter>04_GCD_Fibonacci_Profiling</Filter>
-		</None>
-		<None Include="README.md" />
-	</ItemGroup>
-	<ItemGroup>
-		<Filter Include="01_Bit_Analysis">
-			<UniqueIdentifier>{bc397a81-214e-429c-a28f-12b29964c775}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="04_GCD_Fibonacci_Profiling">
-			<UniqueIdentifier>{255cef4c-b233-4180-8ccf-2f16086f7d83}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="02_Floationg_Point_Char">
-			<UniqueIdentifier>{09c9687a-3d24-4a0b-8385-056315a67a37}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="03_Fraction_ADT">
-			<UniqueIdentifier>{3be71870-792d-4a3a-9c1f-b326cded699a}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="05_Arrary">
-			<UniqueIdentifier>{3bd0f390-b46b-4a89-a272-b645c692b3af}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="06_Pointer">
-			<UniqueIdentifier>{dc52c950-9233-497d-b021-78784fd9bd69}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="07_Structure">
-			<UniqueIdentifier>{51c48aa1-91f9-4971-a7aa-2fbebc842183}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="08_Recursion">
-			<UniqueIdentifier>{6a14e843-f5bf-42df-83b2-ca8788e4f573}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="09_Realloc">
-			<UniqueIdentifier>{a18533e6-8650-421d-b018-203df1f1fc2d}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="10_Sequential_List">
-			<UniqueIdentifier>{3c165675-4597-4c9d-9707-dd17c51e047b}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="10_Sequential_List\assignment-1">
-			<UniqueIdentifier>{a63e88e5-bf8b-4721-ac81-cc1dfb3223fd}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="10_Sequential_List\assignment2">
-			<UniqueIdentifier>{78722044-dabc-4609-b5fb-ebeb9eae1812}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="10_Sequential_List\Bonus">
-			<UniqueIdentifier>{abd957c8-e2c3-4d24-b817-06d259fa3b5c}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="11_Polynomial">
-			<UniqueIdentifier>{a4497362-798f-42d2-afbc-de4b4398cb44}</UniqueIdentifier>
-		</Filter>
-	</ItemGroup>
-	<ItemGroup>
-		<ClCompile Include="Assignment01.c">
-			<Filter>01_Bit_Analysis</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment02\Assignment02.c">
-			<Filter>02_Floationg_Point_Char</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment03\assignmnet03.c">
-			<Filter>03_Fraction_ADT</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment03\my_fraction.c">
-			<Filter>03_Fraction_ADT</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment03\my_math.c">
-			<Filter>03_Fraction_ADT</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment05\assignment05.c">
-			<Filter>05_Arrary</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment04\assignment04.c">
-			<Filter>04_GCD_Fibonacci_Profiling</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment04\my_math.c">
-			<Filter>04_GCD_Fibonacci_Profiling</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment06\assignment06.c">
-			<Filter>06_Pointer</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment07\assignment07.c">
-			<Filter>07_Structure</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment08\assignment08.c">
-			<Filter>08_Recursion</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment09\arrayList.c">
-			<Filter>09_Realloc</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment09\assignment09.c">
-			<Filter>09_Realloc</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment10\Assignment10-1\arrayList.c">
-			<Filter>10_Sequential_List\assignment-1</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment10\Assignment10-1\assignment10.c">
-			<Filter>10_Sequential_List\assignment-1</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment10\Assignment10-2\arrayList.c">
-			<Filter>10_Sequential_List\assignment2</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment10\Assignment10-2\assignment10.c">
-			<Filter>10_Sequential_List\assignment2</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment10\Bonus\arrayList.c">
-			<Filter>10_Sequential_List\Bonus</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment10\Bonus\main.c">
-			<Filter>10_Sequential_List\Bonus</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment10\Bonus\sparseMatrix.c">
-			<Filter>10_Sequential_List\Bonus</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment11\arrayList.c">
-			<Filter>11_Polynomial</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment11\assignment11.c">
-			<Filter>11_Polynomial</Filter>
-		</ClCompile>
-		<ClCompile Include="Assignment11\polynomial.c">
-			<Filter>11_Polynomial</Filter>
-		</ClCompile>
-	</ItemGroup>
-	<ItemGroup>
-		<ClInclude Include="Assignment03\my_fraction.h">
-			<Filter>03_Fraction_ADT</Filter>
-		</ClInclude>
-		<ClInclude Include="Assignment03\my_math.h">
-			<Filter>03_Fraction_ADT</Filter>
-		</ClInclude>
-		<ClInclude Include="Assignment04\my_math.h">
-			<Filter>04_GCD_Fibonacci_Profiling</Filter>
-		</ClInclude>
-		<ClInclude Include="Assignment09\arrayList.h">
-			<Filter>09_Realloc</Filter>
-		</ClInclude>
-		<ClInclude Include="Assignment10\Assignment10-1\arrayList.h">
-			<Filter>10_Sequential_List\assignment-1</Filter>
-		</ClInclude>
-		<ClInclude Include="Assignment10\Assignment10-2\arrayList.h">
-			<Filter>10_Sequential_List\assignment2</Filter>
-		</ClInclude>
-		<ClInclude Include="Assignment10\Bonus\arrayList.h">
-			<Filter>10_Sequential_List\Bonus</Filter>
-		</ClInclude>
-		<ClInclude Include="Assignment10\Bonus\sparseMatrix.h">
-			<Filter>10_Sequential_List\Bonus</Filter>
-		</ClInclude>
-		<ClInclude Include="resource.h" />
-		<ClInclude Include="Assignment11\arrayList.h">
-			<Filter>11_Polynomial</Filter>
-		</ClInclude>
-		<ClInclude Include="Assignment11\polynomial.h">
-			<Filter>11_Polynomial</Filter>
-		</ClInclude>
-	</ItemGroup>
-	<ItemGroup>
-		<Text Include="Assignment07\name_list.txt">
-			<Filter>07_Structure</Filter>
-		</Text>
-	</ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="Assignment03\README.md">
+      <Filter>03_Fraction_ADT</Filter>
+    </None>
+    <None Include="Assignment04\README.md">
+      <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01_Bit_Analysis">
+      <UniqueIdentifier>{bc397a81-214e-429c-a28f-12b29964c775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_GCD_Fibonacci_Profiling">
+      <UniqueIdentifier>{255cef4c-b233-4180-8ccf-2f16086f7d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Fraction_ADT">
+      <UniqueIdentifier>{3be71870-792d-4a3a-9c1f-b326cded699a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Arrary">
+      <UniqueIdentifier>{3bd0f390-b46b-4a89-a272-b645c692b3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Pointer">
+      <UniqueIdentifier>{dc52c950-9233-497d-b021-78784fd9bd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_Structure">
+      <UniqueIdentifier>{51c48aa1-91f9-4971-a7aa-2fbebc842183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Recursion">
+      <UniqueIdentifier>{6a14e843-f5bf-42df-83b2-ca8788e4f573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Realloc">
+      <UniqueIdentifier>{a18533e6-8650-421d-b018-203df1f1fc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Sequential_List">
+      <UniqueIdentifier>{3c165675-4597-4c9d-9707-dd17c51e047b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Sequential_List\assignment-1">
+      <UniqueIdentifier>{a63e88e5-bf8b-4721-ac81-cc1dfb3223fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Sequential_List\assignment2">
+      <UniqueIdentifier>{78722044-dabc-4609-b5fb-ebeb9eae1812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Sequential_List\Bonus">
+      <UniqueIdentifier>{abd957c8-e2c3-4d24-b817-06d259fa3b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11_Polynomial">
+      <UniqueIdentifier>{a4497362-798f-42d2-afbc-de4b4398cb44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Floationg_Point_Char">
+      <UniqueIdentifier>{09c9687a-3d24-4a0b-8385-056315a67a37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Assignment01.c">
+      <Filter>01_Bit_Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment02\Assignment02.c">
+      <Filter>02_Floationg_Point_Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment03\assignmnet03.c">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment03\my_fraction.c">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment03\my_math.c">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment05\assignment05.c">
+      <Filter>05_Arrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment04\assignment04.c">
+      <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment04\my_math.c">
+      <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment06\assignment06.c">
+      <Filter>06_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment07\assignment07.c">
+      <Filter>07_Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment08\assignment08.c">
+      <Filter>08_Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment09\arrayList.c">
+      <Filter>09_Realloc</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment09\assignment09.c">
+      <Filter>09_Realloc</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-1\arrayList.c">
+      <Filter>10_Sequential_List\assignment-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-1\assignment10.c">
+      <Filter>10_Sequential_List\assignment-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-2\arrayList.c">
+      <Filter>10_Sequential_List\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Assignment10-2\assignment10.c">
+      <Filter>10_Sequential_List\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Bonus\arrayList.c">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Bonus\main.c">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment10\Bonus\sparseMatrix.c">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment11\arrayList.c">
+      <Filter>11_Polynomial</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment11\assignment11.c">
+      <Filter>11_Polynomial</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment11\polynomial.c">
+      <Filter>11_Polynomial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assignment03\my_fraction.h">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment03\my_math.h">
+      <Filter>03_Fraction_ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment04\my_math.h">
+      <Filter>04_GCD_Fibonacci_Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment09\arrayList.h">
+      <Filter>09_Realloc</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment10\Assignment10-1\arrayList.h">
+      <Filter>10_Sequential_List\assignment-1</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment10\Assignment10-2\arrayList.h">
+      <Filter>10_Sequential_List\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment10\Bonus\arrayList.h">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment10\Bonus\sparseMatrix.h">
+      <Filter>10_Sequential_List\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Assignment11\arrayList.h">
+      <Filter>11_Polynomial</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment11\polynomial.h">
+      <Filter>11_Polynomial</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assignment07\name_list.txt">
+      <Filter>07_Structure</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
