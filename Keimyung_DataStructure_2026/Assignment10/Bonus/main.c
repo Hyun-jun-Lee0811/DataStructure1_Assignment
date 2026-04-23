@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #include <stdio.h>
+=======
+﻿#include <stdio.h>
+>>>>>>> origin/main
 #include "sparseMatrix.h"
 
 int main() {
