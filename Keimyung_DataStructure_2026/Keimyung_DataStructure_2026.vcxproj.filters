@@ -17,9 +17,6 @@
     <Filter Include="04_GCD_Fibonacci_Profiling">
       <UniqueIdentifier>{255cef4c-b233-4180-8ccf-2f16086f7d83}</UniqueIdentifier>
     </Filter>
-    <Filter Include="02_Floationg_Point_Char">
-      <UniqueIdentifier>{09c9687a-3d24-4a0b-8385-056315a67a37}</UniqueIdentifier>
-    </Filter>
     <Filter Include="03_Fraction_ADT">
       <UniqueIdentifier>{3be71870-792d-4a3a-9c1f-b326cded699a}</UniqueIdentifier>
     </Filter>
@@ -47,13 +44,14 @@
     <Filter Include="10_Sequential_List\assignment2">
       <UniqueIdentifier>{78722044-dabc-4609-b5fb-ebeb9eae1812}</UniqueIdentifier>
     </Filter>
-<<<<<<< HEAD
     <Filter Include="10_Sequential_List\Bonus">
       <UniqueIdentifier>{abd957c8-e2c3-4d24-b817-06d259fa3b5c}</UniqueIdentifier>
-=======
+    </Filter>
     <Filter Include="11_Polynomial">
       <UniqueIdentifier>{a4497362-798f-42d2-afbc-de4b4398cb44}</UniqueIdentifier>
->>>>>>> origin/main
+    </Filter>
+    <Filter Include="02_Floationg_Point_Char">
+      <UniqueIdentifier>{09c9687a-3d24-4a0b-8385-056315a67a37}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +106,6 @@
     <ClCompile Include="Assignment10\Assignment10-2\assignment10.c">
       <Filter>10_Sequential_List\assignment2</Filter>
     </ClCompile>
-<<<<<<< HEAD
     <ClCompile Include="Assignment10\Bonus\arrayList.c">
       <Filter>10_Sequential_List\Bonus</Filter>
     </ClCompile>
@@ -117,7 +114,7 @@
     </ClCompile>
     <ClCompile Include="Assignment10\Bonus\sparseMatrix.c">
       <Filter>10_Sequential_List\Bonus</Filter>
-=======
+    </ClCompile>
     <ClCompile Include="Assignment11\arrayList.c">
       <Filter>11_Polynomial</Filter>
     </ClCompile>
@@ -126,7 +123,6 @@
     </ClCompile>
     <ClCompile Include="Assignment11\polynomial.c">
       <Filter>11_Polynomial</Filter>
->>>>>>> origin/main
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -148,20 +144,18 @@
     <ClInclude Include="Assignment10\Assignment10-2\arrayList.h">
       <Filter>10_Sequential_List\assignment2</Filter>
     </ClInclude>
-<<<<<<< HEAD
     <ClInclude Include="Assignment10\Bonus\arrayList.h">
       <Filter>10_Sequential_List\Bonus</Filter>
     </ClInclude>
     <ClInclude Include="Assignment10\Bonus\sparseMatrix.h">
       <Filter>10_Sequential_List\Bonus</Filter>
-=======
+    </ClInclude>
     <ClInclude Include="resource.h" />
     <ClInclude Include="Assignment11\arrayList.h">
       <Filter>11_Polynomial</Filter>
     </ClInclude>
     <ClInclude Include="Assignment11\polynomial.h">
       <Filter>11_Polynomial</Filter>
->>>>>>> origin/main
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
