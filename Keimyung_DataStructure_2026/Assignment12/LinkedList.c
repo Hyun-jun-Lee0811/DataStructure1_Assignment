@@ -91,5 +91,6 @@ LinkedList* deleteAtLinkedList(LinkedList* li, int at) {
 		}
 
 		li->size--;
+		return li;
 	}
 }
