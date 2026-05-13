@@ -56,6 +56,9 @@
     <Filter Include="12_LinkedList">
       <UniqueIdentifier>{17181d91-26f3-422a-aa04-f6c59ffbba62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="13_Linked_List_Menu">
+      <UniqueIdentifier>{b73c1306-46fb-4b52-907f-e3bde5cb8ab1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -133,6 +136,12 @@
     <ClCompile Include="Assignment12\LinkedList.c">
       <Filter>12_LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment13\assignment13.c">
+      <Filter>13_Linked_List_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment13\LinkedList.c">
+      <Filter>13_Linked_List_Menu</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -168,6 +177,9 @@
     </ClInclude>
     <ClInclude Include="Assignment12\LinkedList.h">
       <Filter>12_LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment13\LinkedList.h">
+      <Filter>13_Linked_List_Menu</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
