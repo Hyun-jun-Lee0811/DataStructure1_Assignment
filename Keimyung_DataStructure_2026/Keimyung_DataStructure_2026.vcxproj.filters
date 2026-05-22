@@ -65,8 +65,8 @@
     <Filter Include="14_Double_Circular">
       <UniqueIdentifier>{a2160578-1191-4b11-9882-e9142dc294d0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="14_">
-      <UniqueIdentifier>{b5b30ac0-93a2-48aa-935f-bea0863ed597}</UniqueIdentifier>
+    <Filter Include="15">
+      <UniqueIdentifier>{7ccc9bf4-921e-4fce-800d-a2527f9e8950}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +163,14 @@
     <ClCompile Include="Assignment14\DLinkedList.c">
       <Filter>14_Double_Circular</Filter>
     </ClCompile>
+    <ClCompile Include="CircularLinkedList\CLinkedList.c" />
+    <ClCompile Include="CircularLinkedList\main.c" />
+    <ClCompile Include="Assignment15\assignment15.c">
+      <Filter>15</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment15\LinkedStack.c">
+      <Filter>15</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -207,6 +215,10 @@
     </ClInclude>
     <ClInclude Include="Assignment14\DLinkedList.h">
       <Filter>14_Double_Circular</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularLinkedList\CLinkedList.h" />
+    <ClInclude Include="Assignment15\Linkedstack.h">
+      <Filter>15</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

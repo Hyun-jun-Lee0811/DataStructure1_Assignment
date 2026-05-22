@@ -1,4 +1,6 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "Linkedstack.h"
+#include <string.h>
 
 LinkedStack* createLinkedStack() {
 	LinkedStack* re = (LinkedStack*)malloc(sizeof(LinkedStack));
@@ -17,10 +19,11 @@ int fullLinkedStack(LinkedStack* s) {
 }
 
 int pushLinkedStack(LinkedStack* s, stackElement item) {
-	Node* temp = (Node*)malloc(sizeof(Node));
-	temp->data = item;
-	temp->next = s->head;
-	s->head = temp;
+	Node* n = (Node*)malloc(sizeof(Node));
+	n->data =(char*)malloc(strlen(item) + 1);
+	strcpy(n->data, item);
+	n->next = s->head;
+	s->head = n;
 	s->size++;
 	return 1;
 }
@@ -30,17 +33,16 @@ void printLinkedStack(LinkedStack* s) {
 	printf("Size: %d\n", s->size);
 	Node* temp = s->head;
 	while (temp != NULL) {
-		printf("%d\n", temp->data);
+		printf("%s\n", temp->data);
 		temp = temp->next;
 	}
 }
 
 void destroyLinkedStack(LinkedStack* s) {
-
 	while (!emptyLinkedStack(s)) {
-		popLinkedStack(s);
+		char* data = popLinkedStack(s);
+		free(data);
 	}
-
 	free(s);
 }
 
@@ -49,17 +51,11 @@ stackElement popLinkedStack(LinkedStack* s) {
 	if (emptyLinkedStack(s)) {
 		return NULL;
 	}
-
-	Node* temp = s->head;
-
-	stackElement data = temp->data;
-
-	s->head = temp->next;
-
-	free(temp);
-
+	Node* n = s->head;
+	stackElement data = n->data;
+	s->head = n->next;
+	free(n);
 	s->size--;
-
 	return data;
 }
 
