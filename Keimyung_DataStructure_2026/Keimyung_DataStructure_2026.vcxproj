@@ -130,7 +130,6 @@
     <None Include=".gitignore" />
     <None Include="Assignment03\README.md" />
     <None Include="Assignment04\README.md" />
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -216,8 +215,15 @@
     <ClCompile Include="Assignment14\DLinkedList.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Assignment15\assignment15.c" />
-    <ClCompile Include="Assignment15\LinkedStack.c" />
+    <ClCompile Include="Assignment15\assignment15.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment15\LinkedStack.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Assignment16\ArrayStack.c" />
+    <ClCompile Include="Assignment16\assignment16.c" />
+    <ClCompile Include="Assignment16\calculator.c" />
     <ClCompile Include="CircularLinkedList\CLinkedList.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -267,14 +273,17 @@
     <ClInclude Include="Assignment14\DLinkedList.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Assignment15\Linkedstack.h" />
+    <ClInclude Include="Assignment15\Linkedstack.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Assignment16\ArrayStack.h" />
+    <ClInclude Include="Assignment16\calculator.h" />
     <ClInclude Include="CircularLinkedList\CLinkedList.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="CircularLinkedList\CLinkedList.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Assignment07\name_list.txt" />

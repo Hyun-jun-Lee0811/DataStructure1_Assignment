@@ -8,7 +8,6 @@
     <None Include="Assignment04\README.md">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </None>
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="01_Bit_Analysis">
@@ -67,6 +66,9 @@
     </Filter>
     <Filter Include="15">
       <UniqueIdentifier>{7ccc9bf4-921e-4fce-800d-a2527f9e8950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16">
+      <UniqueIdentifier>{a3c88188-302a-4cf7-b1c8-7f8da6d3cbd1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +173,17 @@
     <ClCompile Include="Assignment15\LinkedStack.c">
       <Filter>15</Filter>
     </ClCompile>
+    <ClCompile Include="CircularLinkedList\CLinkedList.c" />
+    <ClCompile Include="CircularLinkedList\main.c" />
+    <ClCompile Include="Assignment16\ArrayStack.c">
+      <Filter>16</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment16\assignment16.c">
+      <Filter>16</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment16\calculator.c">
+      <Filter>16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -197,7 +210,6 @@
     <ClInclude Include="Assignment10\Bonus\sparseMatrix.h">
       <Filter>10_Sequential_List\Bonus</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="Assignment11\arrayList.h">
       <Filter>11_Polynomial</Filter>
     </ClInclude>
@@ -219,6 +231,13 @@
     <ClInclude Include="CircularLinkedList\CLinkedList.h" />
     <ClInclude Include="Assignment15\Linkedstack.h">
       <Filter>15</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularLinkedList\CLinkedList.h" />
+    <ClInclude Include="Assignment16\ArrayStack.h">
+      <Filter>16</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment16\calculator.h">
+      <Filter>16</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
